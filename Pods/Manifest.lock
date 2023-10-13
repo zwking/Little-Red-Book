@@ -1,16 +1,20 @@
 PODS:
+  - SnapKit (5.6.0)
   - XLPagerTabStrip (9.1.0)
 
 DEPENDENCIES:
+  - SnapKit (~> 5.6.0)
   - XLPagerTabStrip (~> 9.0)
 
 SPEC REPOS:
   trunk:
+    - SnapKit
     - XLPagerTabStrip
 
 SPEC CHECKSUMS:
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   XLPagerTabStrip: 27f3bfe23c53b4251c6481b06b1c289458a3fc1d
 
-PODFILE CHECKSUM: 6d7732bc3cdcaff7be86b8ef8d1f73a919b3af37
+PODFILE CHECKSUM: 6e4c3f0f2271ca43f6d0b60f527949867202381a
 
 COCOAPODS: 1.13.0

@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		95ADEBF22AD3CFCC001608C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEBF12AD3CFCC001608C0 /* AppDelegate.swift */; };
 		95ADEBF42AD3CFCC001608C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEBF32AD3CFCC001608C0 /* SceneDelegate.swift */; };
-		95ADEBF62AD3CFCC001608C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEBF52AD3CFCC001608C0 /* ViewController.swift */; };
 		95ADEBF92AD3CFCC001608C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95ADEBF72AD3CFCC001608C0 /* Main.storyboard */; };
 		95ADEBFC2AD3CFCC001608C0 /* LittlePink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEBFA2AD3CFCC001608C0 /* LittlePink.xcdatamodeld */; };
 		95ADEBFE2AD3CFCD001608C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95ADEBFD2AD3CFCD001608C0 /* Assets.xcassets */; };
 		95ADEC012AD3CFCD001608C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95ADEBFF2AD3CFCD001608C0 /* LaunchScreen.storyboard */; };
+		95ADEC092AD7BD4E001608C0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEC082AD7BD4E001608C0 /* HomeVC.swift */; };
+		95ADEC0B2AD7F6F3001608C0 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEC0A2AD7F6F3001608C0 /* FollowVC.swift */; };
+		95ADEC0D2AD7F702001608C0 /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEC0C2AD7F702001608C0 /* DiscoveryVC.swift */; };
+		95ADEC0F2AD7F711001608C0 /* NearbyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEC0E2AD7F711001608C0 /* NearbyVC.swift */; };
+		95ADEC122AD7F77E001608C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEC112AD7F77E001608C0 /* Constants.swift */; };
+		95ADEC142AD83A27001608C0 /* HomeButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEC132AD83A27001608C0 /* HomeButtonBarView.swift */; };
+		95ADEC162AD8D552001608C0 /* SelectedBarShapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEC152AD8D552001608C0 /* SelectedBarShapView.swift */; };
 		CC92885AD3FF48D656B6D3AB /* Pods_LittlePink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE51648F1A8C395ABA4E9D83 /* Pods_LittlePink.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,12 +29,18 @@
 		95ADEBEE2AD3CFCC001608C0 /* LittlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95ADEBF12AD3CFCC001608C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95ADEBF32AD3CFCC001608C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		95ADEBF52AD3CFCC001608C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95ADEBF82AD3CFCC001608C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95ADEBFB2AD3CFCC001608C0 /* LittlePink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittlePink.xcdatamodel; sourceTree = "<group>"; };
 		95ADEBFD2AD3CFCD001608C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95ADEC002AD3CFCD001608C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95ADEC022AD3CFCD001608C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95ADEC082AD7BD4E001608C0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		95ADEC0A2AD7F6F3001608C0 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
+		95ADEC0C2AD7F702001608C0 /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
+		95ADEC0E2AD7F711001608C0 /* NearbyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyVC.swift; sourceTree = "<group>"; };
+		95ADEC112AD7F77E001608C0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		95ADEC132AD83A27001608C0 /* HomeButtonBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonBarView.swift; sourceTree = "<group>"; };
+		95ADEC152AD8D552001608C0 /* SelectedBarShapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedBarShapView.swift; sourceTree = "<group>"; };
 		FE51648F1A8C395ABA4E9D83 /* Pods_LittlePink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -50,7 +62,6 @@
 				4F3688B9C71F53A4BB7CEC4F /* Pods-LittlePink.debug.xcconfig */,
 				7574E0DA3418B62C6E480C26 /* Pods-LittlePink.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -77,14 +88,28 @@
 			children = (
 				95ADEBF12AD3CFCC001608C0 /* AppDelegate.swift */,
 				95ADEBF32AD3CFCC001608C0 /* SceneDelegate.swift */,
-				95ADEBF52AD3CFCC001608C0 /* ViewController.swift */,
 				95ADEBF72AD3CFCC001608C0 /* Main.storyboard */,
+				95ADEC112AD7F77E001608C0 /* Constants.swift */,
+				95ADEC102AD7F758001608C0 /* Home */,
 				95ADEBFD2AD3CFCD001608C0 /* Assets.xcassets */,
 				95ADEBFF2AD3CFCD001608C0 /* LaunchScreen.storyboard */,
 				95ADEC022AD3CFCD001608C0 /* Info.plist */,
 				95ADEBFA2AD3CFCC001608C0 /* LittlePink.xcdatamodeld */,
 			);
 			path = LittlePink;
+			sourceTree = "<group>";
+		};
+		95ADEC102AD7F758001608C0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				95ADEC082AD7BD4E001608C0 /* HomeVC.swift */,
+				95ADEC0A2AD7F6F3001608C0 /* FollowVC.swift */,
+				95ADEC0C2AD7F702001608C0 /* DiscoveryVC.swift */,
+				95ADEC0E2AD7F711001608C0 /* NearbyVC.swift */,
+				95ADEC132AD83A27001608C0 /* HomeButtonBarView.swift */,
+				95ADEC152AD8D552001608C0 /* SelectedBarShapView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		A430A33E2883047A7FD81D5F /* Frameworks */ = {
@@ -210,10 +235,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95ADEBF62AD3CFCC001608C0 /* ViewController.swift in Sources */,
 				95ADEBF22AD3CFCC001608C0 /* AppDelegate.swift in Sources */,
+				95ADEC092AD7BD4E001608C0 /* HomeVC.swift in Sources */,
+				95ADEC0B2AD7F6F3001608C0 /* FollowVC.swift in Sources */,
+				95ADEC162AD8D552001608C0 /* SelectedBarShapView.swift in Sources */,
 				95ADEBF42AD3CFCC001608C0 /* SceneDelegate.swift in Sources */,
 				95ADEBFC2AD3CFCC001608C0 /* LittlePink.xcdatamodeld in Sources */,
+				95ADEC0D2AD7F702001608C0 /* DiscoveryVC.swift in Sources */,
+				95ADEC0F2AD7F711001608C0 /* NearbyVC.swift in Sources */,
+				95ADEC142AD83A27001608C0 /* HomeButtonBarView.swift in Sources */,
+				95ADEC122AD7F77E001608C0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
