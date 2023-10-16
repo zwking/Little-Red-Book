@@ -20,6 +20,8 @@
 		95ADEC122AD7F77E001608C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEC112AD7F77E001608C0 /* Constants.swift */; };
 		95ADEC142AD83A27001608C0 /* HomeButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEC132AD83A27001608C0 /* HomeButtonBarView.swift */; };
 		95ADEC162AD8D552001608C0 /* SelectedBarShapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEC152AD8D552001608C0 /* SelectedBarShapView.swift */; };
+		95ADEC182ADBAEE9001608C0 /* WaterfallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEC172ADBAEE9001608C0 /* WaterfallVC.swift */; };
+		95ADEC1A2ADBB8C0001608C0 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADEC192ADBB8C0001608C0 /* WaterfallCell.swift */; };
 		CC92885AD3FF48D656B6D3AB /* Pods_LittlePink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE51648F1A8C395ABA4E9D83 /* Pods_LittlePink.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		95ADEC112AD7F77E001608C0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		95ADEC132AD83A27001608C0 /* HomeButtonBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonBarView.swift; sourceTree = "<group>"; };
 		95ADEC152AD8D552001608C0 /* SelectedBarShapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedBarShapView.swift; sourceTree = "<group>"; };
+		95ADEC172ADBAEE9001608C0 /* WaterfallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallVC.swift; sourceTree = "<group>"; };
+		95ADEC192ADBB8C0001608C0 /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
 		FE51648F1A8C395ABA4E9D83 /* Pods_LittlePink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,10 +92,12 @@
 			children = (
 				95ADEBF12AD3CFCC001608C0 /* AppDelegate.swift */,
 				95ADEBF32AD3CFCC001608C0 /* SceneDelegate.swift */,
-				95ADEBF72AD3CFCC001608C0 /* Main.storyboard */,
 				95ADEC112AD7F77E001608C0 /* Constants.swift */,
+				95ADEC172ADBAEE9001608C0 /* WaterfallVC.swift */,
+				95ADEC192ADBB8C0001608C0 /* WaterfallCell.swift */,
 				95ADEC102AD7F758001608C0 /* Home */,
 				95ADEBFD2AD3CFCD001608C0 /* Assets.xcassets */,
+				95ADEBF72AD3CFCC001608C0 /* Main.storyboard */,
 				95ADEBFF2AD3CFCD001608C0 /* LaunchScreen.storyboard */,
 				95ADEC022AD3CFCD001608C0 /* Info.plist */,
 				95ADEBFA2AD3CFCC001608C0 /* LittlePink.xcdatamodeld */,
@@ -103,8 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				95ADEC082AD7BD4E001608C0 /* HomeVC.swift */,
-				95ADEC0A2AD7F6F3001608C0 /* FollowVC.swift */,
 				95ADEC0C2AD7F702001608C0 /* DiscoveryVC.swift */,
+				95ADEC0A2AD7F6F3001608C0 /* FollowVC.swift */,
 				95ADEC0E2AD7F711001608C0 /* NearbyVC.swift */,
 				95ADEC132AD83A27001608C0 /* HomeButtonBarView.swift */,
 				95ADEC152AD8D552001608C0 /* SelectedBarShapView.swift */,
@@ -235,10 +241,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95ADEC1A2ADBB8C0001608C0 /* WaterfallCell.swift in Sources */,
 				95ADEBF22AD3CFCC001608C0 /* AppDelegate.swift in Sources */,
 				95ADEC092AD7BD4E001608C0 /* HomeVC.swift in Sources */,
 				95ADEC0B2AD7F6F3001608C0 /* FollowVC.swift in Sources */,
 				95ADEC162AD8D552001608C0 /* SelectedBarShapView.swift in Sources */,
+				95ADEC182ADBAEE9001608C0 /* WaterfallVC.swift in Sources */,
 				95ADEBF42AD3CFCC001608C0 /* SceneDelegate.swift in Sources */,
 				95ADEBFC2AD3CFCC001608C0 /* LittlePink.xcdatamodeld in Sources */,
 				95ADEC0D2AD7F702001608C0 /* DiscoveryVC.swift in Sources */,
